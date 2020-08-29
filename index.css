@@ -1,0 +1,81 @@
+﻿/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 80%;
+   /*background-color:#484a41;*/
+   margin:0px;
+   padding:0px;
+   color:#3f4231;
+
+}
+.pink{
+      color:pink;
+      }
+
+div#searchBox, div#listBox {
+   margin: 0.25em auto;
+   background-color: #EBF4FB;
+   padding: 1em;
+   border: 1pt solid #95BEF0;
+   width: 80%;
+   /*background-color: #596f80;*/
+   /*border: 1pt solid #68859c*/
+}
+div#searchBox { margin-top: 1em; }
+div#right{direction: rtl; float: right;}
+img#cart{padding-bottom: 0.01px}
+div#listBox { 
+   margin-top: 1em; 
+   background-color: #FAFCFF;
+  /* background-color: #596f80;*/
+   }
+
+table {
+   border: collapse; 
+   border-spacing: 0;
+   
+}
+table img#image01{
+   display: inline;
+}
+table label#label01 {
+   display: inline;
+}
+
+table tbody td{
+   border-top: 1pt solid #95BEF0;   
+   line-height: 1.5em;
+   vertical-align: middle;
+   padding: 0.5em 0.75em;
+}
+table thead th {
+   text-align: left;
+   padding: 0.25em 0.75em; 
+}
+table thead {
+   background-color: #EBF4FB ;
+   /*background-color: #596f80*/
+}
+#theadTT{
+   background-color: #EBF4FB ;
+}
+
+table tbody td:first-child  {
+   text-align: center;
+   padding: 0.5em 0em;   
+}
+
+caption {
+   background-color: #95BEF0;
+      padding: 0.5em 0.5em; 
+      font-weight: bold;
+      font-size: 1.2em;
+}
+
+.backgroundBlue {
+   background-color: #6d8ba3;
+}
